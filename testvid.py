@@ -10,7 +10,7 @@ ROW_SIZE = 10  # pixels
 FONT_SIZE = 1
 FONT_THICKNESS = 1
 rect_color=(255,0,255)
-TEXT_COLOR = (255, 255, 255)  # red
+TEXT_COLOR = (255, 0, 0)  # red
 cap=cv2.VideoCapture(0)
 base_options = python.BaseOptions(model_asset_path='best.tflite')
 options = vision.ObjectDetectorOptions(base_options=base_options,
